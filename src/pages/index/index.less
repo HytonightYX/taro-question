@@ -1,0 +1,61 @@
+.index {
+  .title {
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 25PX;
+    height: 40PX;
+    line-height: 40PX;
+  }
+
+  .btn-question {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #51B54D;
+  }
+
+  .ques-list {
+    margin-top: 10PX;
+    font-size: 14PX;
+    .ques {
+      width: 100%;
+      margin: 20PX 10PX;
+      //padding: 10PX;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .ques-title {
+        font-size: 18PX;
+      }
+
+      .ques-des {
+        margin-top: 5PX;
+      }
+
+      .ques-left {
+        width: 100%;
+      }
+
+      .ques-right {
+        display: flex;
+        flex-direction: column;   /* 设置方向 */
+        justify-content: center;  /* 沿着方向居中 */
+        align-items: center;      /* 垂直方向居中 */
+        width: 100PX;
+
+        Text {
+          font-size: 10PX;
+        }
+
+        .right-img {
+          width: 28PX;
+          height: 28PX;
+        }
+      }
+    }
+  }
+}
